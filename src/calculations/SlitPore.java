@@ -81,6 +81,7 @@ public class SlitPore {
 													// accessible to the sphere
 													// centers.
 
+		// XXX: mesh size can be changed here
 		mesh_sc = 0.01; // discretize the pore height with a mesh size of
 		size = (int) (H_sc / mesh_sc) + 1; // total size of array
 		start = (int) ((0.5 * Dia) / mesh_sc); // the index corresponding to the
